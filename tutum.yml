@@ -1,0 +1,7 @@
+barebones:
+  image: 'daemonite/barebones:latest'
+  environment:
+    - 'COOKIE=SRV insert indirect nocache'
+    - EXCLUDE_PORTS=8080
+    - VIRTUAL_HOST=barebones.modius.io
+  target_num_containers: 2
