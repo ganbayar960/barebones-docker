@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
         STARTUP_SQL: "/vagrant/config/mysql/barebones.sql"
       }
       docker.expose = %w(3306)
-      docker.ports = %w(3306:3306)
+      #docker.ports = %w(3306:3306)
       docker.vagrant_machine = WORKBENCH_HOST
       docker.vagrant_vagrantfile = WORKBENCH_VAGRANTFILE
       docker.force_host_vm = true
