@@ -1,6 +1,6 @@
 [submodule "code/core"]
 	path = code/core
-	url = git@github.com:farcrycore/core.git
+	url = https://github.com/farcrycore/core.git
 [submodule "code/projects/barebones"]
 	path = code/projects/barebones
-	url = git@github.com:farcrycore/project-barebones.git
+	url = https://github.com/farcrycore/project-barebones.git
